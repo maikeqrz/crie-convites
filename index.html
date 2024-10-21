@@ -20,13 +20,36 @@
  <div id="layout">
     <div id="app">
         <aside>
-            <img src="assets/Logo.svg" alt="Logo">
+            <img src="assets/aside/Logo.svg" alt="Logo">
             <h1>Festivite</h1>
             <h2>Crie um convite digital para o seu evento</h2>
         </aside>
         <main>
             <div id="main">
-                <h1>Crie seu convite</h1>
+                <h1 id="convite">Crie seu convite</h1>
+
+                <div id="sobre">
+                    <img src="assets/svgs/calendar.svg" alt="Imagem de calendário">
+                    <h1>Sobre o evento</h1>
+                </div>
+
+                <div class="titulo input-wrapper">
+                    <label for="title">Título</label>
+                    <input type="text" name="title" id="title" placeholder="Nome do evento">
+                </div>
+
+                <div class="flex">
+                 <div class="form1">
+                    <label for="initial">Início</label>
+                    <input type="datetime" name="initial" id="initial" placeholder="DD/MM/AAAA, --:--">
+                 </div>
+                 <div class="form2">
+                    <label for="end">Fim</label>
+                    <input type="datetime" name="end" id="end" placeholder="DD/MM/AAAA, --:--">
+                 </div>
+                </div>
+                
+                
             </div>
         </main>
  </div>

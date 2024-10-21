@@ -42,3 +42,25 @@ h1 {
     font-family: 'Baloo 2', sans-serif;
     color: #F9F9F9;
 }
+
+label {
+    font-family: 'open sans', sans-serif;
+    font-size: 1.4rem;
+    color: #C8CDD0;
+}
+
+input {
+    background-color: #1C1F21;
+    border-radius: .8rem;
+    border: none;
+    border: 1px solid #363B40;
+    height: 4.8rem;
+
+    padding-left: 1.6rem;
+    font-family: 'open sans';
+    font-style: normal;
+    font-size: 1.6rem;
+    color: #869198;
+}
+
+

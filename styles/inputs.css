@@ -1,0 +1,46 @@
+.titulo {
+    padding-top: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+
+    input {
+        width: 100%;
+        height: 4.8rem;
+
+        border-radius: .8rem;
+        border: none;
+        border: 1px solid #363B40;
+
+        padding-left: 1.6rem;
+        font-family: 'open sans';
+        font-style: normal;
+        font-size: 1.6rem;
+        color: #869198;
+    }
+    
+}
+
+.flex {
+    padding-top: 1.6rem;
+    display: flex;
+    gap: 1.6rem;
+
+        .form1 {
+            input {
+            width: 100%;
+        } 
+    }
+
+        .form2 {
+            input {
+            width: 100%;
+        } 
+    }
+    
+}
+
+
+
+

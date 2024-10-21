@@ -1,0 +1,23 @@
+main {
+    background-color: #212427;
+    padding-top: 8rem;
+
+    #main {
+        max-width: 56rem;
+        margin: auto;
+        
+        #convite {
+            font-size: 2.8rem;
+            padding-bottom: 2.8rem;
+        }
+    }
+
+    #sobre {
+        display: flex;
+        align-items: center;
+        
+        gap: 1.2rem;
+        
+    }
+}
+
