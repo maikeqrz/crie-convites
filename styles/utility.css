@@ -1,0 +1,9 @@
+.container {
+    max-width: 56rem;
+    margin-inline: auto;
+}
+
+.container-1 {
+    max-width: 33.6rem;
+    margin-inline: auto;
+}

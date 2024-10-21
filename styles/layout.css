@@ -1,0 +1,11 @@
+#app {
+    display: grid;
+    grid-template-columns: 31.6% 68.3%;
+
+    height: 100vh;
+    overflow: hidden;
+
+    max-width: 100vw;
+
+}
+

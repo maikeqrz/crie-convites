@@ -1,0 +1,9 @@
+main {
+    background-color: #212427;
+
+    #main {
+        max-width: 56rem;
+        margin: auto;
+    }
+}
+

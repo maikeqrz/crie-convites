@@ -1,0 +1,27 @@
+aside {
+    background-image: url(/assets/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    padding: 3.8rem;
+
+    img {
+        width: 4.6rem;
+        height: 4.8rem;
+    }
+
+    h1 {
+        font-family: 'leckerli one';
+        color: #FF598B;
+
+        font-size: 4rem;
+        padding-top: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+        padding-top: 1.6rem;
+    } 
+}
+
