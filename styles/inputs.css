@@ -29,18 +29,54 @@
 
         .form1 {
             input {
-            width: 100%;
+            width: 27.2rem; 
         } 
     }
-
         .form2 {
             input {
-            width: 100%;
+            width: 27.2rem;
         } 
     }
-    
+
+    .form1, .form2 {
+        label {
+            display: block;
+            margin-bottom: 1.2rem;
+        }
+    }
 }
 
+.radio {
+    display: inline;
+    width: 27.2rem;
+    flex-direction: row;
+    align-items: flex-start;
+    
 
+    #flex {
+        display: flex;
+        margin-top: 1.2rem;
+
+        border-radius: .8rem;
+        background-color: #363B40;
+    }  
+
+    input {
+        margin: .4rem;
+        
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    
+        border: 2px solid #000; 
+        border-radius: .4rem; 
+        
+        cursor: pointer;
+        width: 12rem;
+        height: 4rem;
+
+    }
+
+    
+}
 
 
