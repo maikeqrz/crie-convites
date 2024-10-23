@@ -1,0 +1,111 @@
+.title-personalization {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    
+}
+
+.color-principle {
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 2.4rem;
+
+    #radio-todos {
+        display: flex;
+        justify-content: space-between;
+
+        padding-top: 1.2rem;
+    }
+
+    .cor-radio {
+        display: flex;
+        place-content: center;
+        align-items: center;
+
+        width: 4rem;
+        height: 4rem;
+
+        border-radius: 50%;
+        background-color: #2D3136;
+
+        input[type="radio"] {
+            width: 2.8rem;
+            height: 2.8rem;
+        }
+
+        #color-1 {
+            appearance: none; 
+            border-radius: 50%;
+            background-color: #59B2FF;
+        }
+
+        #color-2 {
+            appearance: none; 
+            border-radius: 50%;
+            background-color: #6A59FF;
+        }
+
+        #color-3 {
+            appearance: none; 
+            border-radius: 50%;
+            background-color: #B259FF;
+        }
+
+        #color-4 {
+            appearance: none; 
+            border-radius: 50%;
+            background-color: #FF59F9;
+        }
+
+        #color-5 {
+            appearance: none; 
+            border-radius: 50%;
+            background-color: #FF598B;
+        }
+
+        #color-6 {
+            appearance: none; 
+            border-radius: 50%;
+            background-color: #FF5959;
+        }
+
+        #color-7 {
+            appearance: none; 
+            border-radius: 50%;
+            background-color: #FF8B59;
+        }
+
+        #color-8 {
+            appearance: none; 
+            border-radius: 50%;
+            background-color: #FFCD59;
+        }
+
+        #color-9 {
+            appearance: none; 
+            border-radius: 50%;
+            background-color: #E1FF59;
+        }
+
+        #color-10 {
+            appearance: none; 
+            border-radius: 50%;
+            background-color: #59FF91;
+        }
+
+        #color-11 {
+            appearance: none; 
+            border-radius: 50%;
+            background-color: #59FFF9;
+        }
+    }
+
+    input[type="radio"]:checked {
+        border: 3px solid #59B2FF; 
+      }
+}
