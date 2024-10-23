@@ -23,9 +23,10 @@
 }
 
 .flex {
-    padding-top: 1.6rem;
+    padding-top: 1.2rem;
     display: flex;
     gap: 1.6rem;
+    
 
         .form1 {
             input {
@@ -42,41 +43,80 @@
         label {
             display: block;
             margin-bottom: 1.2rem;
+            
         }
     }
 }
 
-.radio {
+.radio {  /*Voltar aqui para ajeitar*/
     display: inline;
     width: 27.2rem;
     flex-direction: row;
     align-items: flex-start;
     
+    
 
     #flex {
         display: flex;
+        justify-content: space-around;
         margin-top: 1.2rem;
 
         border-radius: .8rem;
-        background-color: #363B40;
+        background-color: #1C1F21;
+        padding: .35rem;
+        border: 1px solid #363B40;
     }  
 
-    input {
-        margin: .4rem;
-        
-        -webkit-appearance: none;
-        -moz-appearance: none;
     
-        border: 2px solid #000; 
+    input[type="radio"] {
+        position: absolute;
+        opacity: 0;
+      }
+
+
+    #form-1, #form-2 {
+        display: flex;
+        align-items: center;
+    
         border-radius: .4rem; 
-        
         cursor: pointer;
-        width: 12rem;
-        height: 4rem;
+        padding: .5rem;
+        padding-left: 2rem;
+        padding-right: 1.5rem;
+
+        label {
+            padding-left: .5rem;
+        }
+
+      }
+
+      #form-1, #form-2:has(:checked) {
+        background-color: #363B40;
 
     }
+}
 
-    
+.description {
+    padding-top: 1.2rem;
+
+    textarea {
+        width: 56rem;
+        height: 13.6rem;
+
+        background-color: #1C1F21;
+        border-radius: .8rem;
+        border: none;
+        border: 1px solid #363B40;
+
+        padding-top: 1.2rem;
+        padding-left: 1.6rem;
+        font-family: 'open sans';
+        font-style: normal;
+        font-size: 1.6rem;
+        color: #869198;
+
+        margin-top: 1.2rem;
+    }
 }
 
 

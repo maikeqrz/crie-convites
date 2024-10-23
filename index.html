@@ -54,14 +54,18 @@
 
                 <div class="flex">
                     <div class="radio">
-
                        <label for="type">Tipo</label>
-
-                      <div id="flex">
-                            <input type="radio" name="type" id="type" placeholder="Presencial">
-                            <img src="assets/svgs/building-2.svg" alt="">
-                            <input type="radio" name="type" id="type" placeholder="Online">
-                            <img src="assets/svgs/video.svg" alt="">
+                      <div id="flex"> 
+                        <div id="form-1">
+                            <img src="assets/svgs/building-2.svg" alt="Imagem presencial">
+                            <input type="radio" name="type" placeholder="Presencial" checked>
+                            <label for="type" id="form-1">Presencial</label>
+                        </div>
+                        <div id="form-2">
+                            <img src="assets/svgs/video.svg" alt="Imagem de câmera">
+                            <input type="radio" name="type" placeholder="Online">
+                            <label for="type" id="form-2">Online</label>
+                        </div>                      
                       </div> 
                     </div>
    
@@ -70,6 +74,11 @@
                        <input type="url or text" name="Localization" id="Localization" placeholder="Link ou endereço">
                     </div>
    
+                </div>
+
+                <div class="description">
+                    <label for="description">Descrição</label>
+                    <textarea name="description" id="description" placeholder="Escreva sobre os detalhes do evento"></textarea>
                 </div>
                 
                 
