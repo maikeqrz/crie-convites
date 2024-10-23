@@ -20,6 +20,7 @@
         justify-content: space-between;
 
         padding-top: 1.2rem;
+        cursor: pointer;
     }
 
     .cor-radio {
@@ -36,6 +37,8 @@
         input[type="radio"] {
             width: 2.8rem;
             height: 2.8rem;
+
+            cursor: pointer;
         }
 
         #color-1 {
@@ -106,6 +109,53 @@
     }
 
     input[type="radio"]:checked {
-        border: 3px solid #59B2FF; 
+        border: 2px solid #ffffff; 
       }
+}
+
+.theme-event {
+    margin-top: 2.8rem;
+    cursor: pointer;
+
+    #grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    padding-top: 1.6rem;
+    }
+
+    input[type="radio"] {
+        display: none;
+    }
+
+    .card-event {
+        width: 13.4rem;
+        height: 10.3rem;
+
+        text-align: center;
+        background-color: #2D3136;
+        border-radius: 1.2rem;
+
+        
+
+        img {
+            margin-top: .25rem;
+            padding-left: .1rem;
+            padding-right: .1rem;
+            width: 12.6rem;
+            height: 6.4rem;
+
+            border-radius: .4rem;
+        }
+
+        h2 {
+            padding-top: .5rem;
+        }
+
+    }
+
+    
+    input[type="radio"]:checked + .card-event {
+        border: 2px solid #ffffff; 
+    }
 }
