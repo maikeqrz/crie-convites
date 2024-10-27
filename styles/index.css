@@ -3,5 +3,6 @@
 @import url(layout.css);
 @import url(/styles/grids/aside.css);
 @import url(/styles/grids/main.css);
-@import url(inputs.css);
-@import url(personalization.css);
+@import url(/styles/construction/inputs.css);
+@import url(/styles/construction/personalization.css);
+

@@ -159,3 +159,63 @@
         border: 2px solid #ffffff; 
     }
 }
+
+.style {
+    width: 17.6rem;
+
+    #checkbox {
+
+        display: flex;
+
+        width: 17.6rem;
+        height: 3.2rem;
+        margin-top: 1.6rem;
+        
+
+        #border {
+            border: 1px solid #363B40;
+            background-color: #1C1F21;
+
+            border-radius: 999px;
+            height: 3.2rem;
+            width: 6.4rem;
+            place-content: center;
+            align-items: center;
+
+            
+        }
+        
+
+        input {
+            appearance: none;
+
+            width: 2.5rem;
+            height: 2.5rem;
+            border: none;
+            border-radius: 50%;
+
+            cursor: pointer;
+
+            margin-left: .3rem;
+            margin-top: .2rem;
+        }
+
+        h2 {
+            padding-left: 1.2rem;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        
+
+        input[type="radio"]:checked {
+            background-color: #363B40;
+        }
+    }
+
+    #file {
+
+        #input {
+            padding-top: 1.6rem;
+        }
+    }
+}
