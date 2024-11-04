@@ -1,0 +1,51 @@
+.terms-of-conditions {
+    margin-top: 2.4rem;
+    border-top: 1px solid #363B40;
+
+    .checkbox {
+        padding-top: 4rem;
+
+        .checkboxs {
+            display: flex;
+            align-items: center;
+            gap: 1.2rem;
+
+            input[type="checkbox"] {
+                display: none;
+            }
+
+            span {
+                width: 20px;
+                height: 20px;
+                display: inline-block;
+                border: 2px solid #363B40; 
+                background-color: #212427; 
+                border-radius: 4px; 
+            }
+
+            input[type="checkbox"]:checked + span {
+                background-color: #007bff; 
+                border-color: #007bff;
+            }
+
+            input[type="checkbox"]:checked + span::after {
+                content: '';
+                position: absolute;
+                left: 5px;
+                top: 2px;
+                width: 6px;
+                height: 12px;
+                border: solid white;
+                border-width: 0 2px 2px 0;
+                transform: rotate(45deg);
+            }
+
+            a {
+                text-decoration-line: underline;
+                color: #59B2FF;
+
+            }
+        } 
+    }
+}
+

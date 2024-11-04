@@ -1,0 +1,22 @@
+.contact {
+    
+
+    .flex {
+        padding-bottom: 2.4rem;
+    }
+
+    .inputs {
+        input {
+            width: 56rem;
+            margin-top: 1.2rem;
+        }
+    }
+
+    .inputs-2 {
+        input {
+            width: 27.2rem;
+            margin-top: 1.2rem;
+        }
+        
+    }
+}
